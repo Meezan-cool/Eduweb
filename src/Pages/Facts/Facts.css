@@ -1,0 +1,80 @@
+.Facts{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.Sub_facts{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 8%;
+    transform: translate(-1%);
+    overflow: hidden;
+}
+.Facts_big{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex-basis: 33%;
+}
+.Big_txt{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 51px;
+}
+.Big_num{
+    font-weight: 800;
+    font-size: 10rem;
+    line-height: 140px;
+    overflow: hidden;
+    color: #DB4140;
+}
+.Facts_big_txt{
+    
+}
+.Facts_big_txt img{
+    /* position: absolute; */
+    width: 30px;
+}
+.Facts_big_txt div{
+    /* position: absolute; */
+    font-size: 15px;
+    font-weight: 800;
+}
+.Facts_small{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 67%;
+    justify-content: flex-end;
+    position: relative;
+    top: 11%;
+    height: 100%;
+}
+.Right_Small_txt{
+    font-weight: 800;
+    font-size: 25px;
+    padding-bottom: 1.4%;
+}
+.Small_num{
+    display: flex;
+    /* flex-direction: column; */
+    position: relative;
+    top: 0%;
+    flex-basis: 67%;
+    gap: 4rem;
+}
+.num1{
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 6.5rem;
+    line-height: 100px;
+    color: #3F3C56;
+    /* position: relative;
+    top: 15px; */
+}

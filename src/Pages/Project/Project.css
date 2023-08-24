@@ -1,0 +1,79 @@
+.Project{
+    background: #DB4140;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Card_changer{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.Card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: white;
+    height: 85%;
+    width: 70%;
+    background: #FB6262;
+}
+.Image_container{
+    height: 100%;
+    background: url('../../Images/photo-1618477388954-7852f32655ec\ 1.png');
+    background-position: center;
+    background-size: cover;
+    /* background: no-repeat; */
+}
+.Project_txt{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sub_Project_txt{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: .5rem;
+}
+
+.Feature_txt{
+  font-size: 20px;
+  font-weight: 800;
+}
+.Banking_txt{
+ font-size: 50px;
+ font-weight: 800;
+}
+
+.Project_para_txt{
+ font-size: 14.5px;
+ font-weight: 600;
+ word-wrap: break-all;
+ /* height: auto; */
+ overflow: hidden;
+ /* width: 100%; */
+}
+.Horixontal_line{
+    margin: 5% 0% 6% 0%;
+    background: white;
+    height: 0.2rem;
+    width: 15%;
+    position: relative;
+    top: 1.5%;
+}
+.Live_site_cont{
+display: flex;
+gap: 1.5rem;
+}
+.Live_txt{
+    font-size: 20px;
+  font-weight: 800;
+}
